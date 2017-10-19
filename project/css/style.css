@@ -1,0 +1,58 @@
+/***  Heading  ***/
+
+h1 {
+    color: green;
+    text-align: center;
+}
+/***  Navigation bar  ***/
+
+.nav-bar a:hover {
+display: inline;
+background-color: pink;
+color: red;
+}
+
+
+/***  Body  ***/
+
+body {
+    color: #2427DB;
+}
+
+p {
+    color: blueviolet;
+}
+
+.tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #16a085;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+  }
+.tab-content p {
+    margin: 1em;   
+  }
+ 
+  .tab-content {
+      display: none;
+  }
+
+/***  Buttons  ***/
+
+
+
